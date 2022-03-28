@@ -57,10 +57,13 @@
       <section class="video-bg position-relative" data-scroll="">
 	
         <div class = 'cover'> 
-          <video  autoplay="" loop="" muted="" playsinline=""  id="bannerVideo" class = 'mainVideo' width = '600'>
+          <video loop muted autoPlay playsinline="true"  disablePictureInPicture="true"  id="bannerVideo" class = 'mainVideo' width = '600'>
                           <source src="./assets/Oribe video.mp4" type="video/mp4" />
                           <img src="/assets/Rectangle 2.jpg" alt="">
           </video> 
+          <script type="text/javascript">
+            document.getElementById('bannerVideo').play();
+          </script>
           <div class="video-play-button">
             <span class="polygon-video"></span>
           </div>
@@ -125,11 +128,13 @@
       </section>
     
       <section class="fifth-section">
-        <div class="half-width">
+        <div class="half-width fifth-section-product">
+          <div class="overlay"  onclick="location.href='https://www.oribe.com'"  ></div>
           <img src="./assets/Gold Lust_Shampoo fifth-first.jpg" alt="">
           <button class="fifth-section-cta">Shop Now</button>
         </div>
-        <div class="half-width">
+        <div class="half-width fifth-section-product">
+          <div class="overlay"  onclick="location.href='https://www.oribe.com'"  ></div>
           <img src="./assets/Gold Lust_Conditioner_fifth-second.jpg" alt="">
           <button class="fifth-section-cta">Shop Now</button>
         </div>
@@ -490,13 +495,24 @@
         var height = $("#bannerVideo").height();
         $("#mainContent .video-bg").css("height",height);
         console.log(height)
-      }, 1000);
+      }, 2000);
       // $( document ).ready(function(){
       //   var height = $("#bannerVideo").height();
       //   $("#mainContent .video-bg").css("height",height);
       //   console.log(height)
       // })
-      
+      $('.fifth-section .half-width').hover(function(){
+        $(this).children('.fifth-section-cta').toggle();
+        $(this).children('.overlay').toggle();
+      })
+      $('.fifth-section .half-width').bind('touchstart mousedown', function(e){
+        $(this).children('.fifth-section-cta').css("display","block")
+        $(this).children('.overlay').css("display","block")
+      });
+      $('.fifth-section .half-width').bind('touchend mouseup', function(e){
+        $(this).children('.fifth-section-cta').css("display","none")
+        $(this).children('.overlay').css("display","none")
+      })
     </script>
   </body>
 </html>
