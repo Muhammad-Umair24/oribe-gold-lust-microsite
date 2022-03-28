@@ -1,0 +1,116 @@
+%!Adobe-FontList 1.23
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AGaramondPro-Italic
+FamilyName:Adobe Garamond Pro
+StyleName:Italic
+MenuName:Adobe Garamond Pro
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Adobe Garamond Pro Italic
+WritingScript:Roman
+OutlineFileName:/Users/my003538/Dropbox (Kao)/Oribe Art Dept./DIGITAL MARKETING/FOR JONAH/Gold Lust Microsite/V2/Gold Lust_MicrositeV2 Collected Folder/Document fonts/AGaramondPro-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:92048
+FileModTime:493847594
+DesignSize:120
+NameArray:0,Mac,4,Adobe Garamond Pro Italic
+NameArray:0,Win,1,Adobe Garamond Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AGaramondPro-Regular
+FamilyName:Adobe Garamond Pro
+StyleName:Regular
+MenuName:Adobe Garamond Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Adobe Garamond Pro
+WritingScript:Roman
+OutlineFileName:/Users/my003538/Dropbox (Kao)/Oribe Art Dept./DIGITAL MARKETING/FOR JONAH/Gold Lust Microsite/V2/Gold Lust_MicrositeV2 Collected Folder/Document fonts/AGaramondPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:127840
+FileModTime:493847594
+DesignSize:120
+NameArray:0,Mac,4,Adobe Garamond Pro
+NameArray:0,Win,1,Adobe Garamond Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/my003538/Dropbox (Kao)/Oribe Art Dept./DIGITAL MARKETING/FOR JONAH/Gold Lust Microsite/V2/Gold Lust_MicrositeV2 Collected Folder/Document fonts/AdobeFnt23.lst
+FileLength:2905
+FileModTime:668546210
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ITCAvantGardeStd-MdCn
+FamilyName:ITC Avant Garde Gothic Std
+StyleName:Medium Condensed
+MenuName:ITC Avant Garde Std Cn
+StyleBits:0
+WeightClass:500
+WidthClass:3
+AngleClass:0
+FullName:ITC Avant Garde Gothic Std Medium Condensed
+WritingScript:Roman
+OutlineFileName:/Users/my003538/Dropbox (Kao)/Oribe Art Dept./DIGITAL MARKETING/FOR JONAH/Gold Lust Microsite/V2/Gold Lust_MicrositeV2 Collected Folder/Document fonts/ITCAvantGardeStd-MdCn.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:30520
+FileModTime:493847878
+NameArray:0,Mac,18,ITC Avant Garde Std Md Cn
+NameArray:0,Mac,4,ITC Avant Garde Gothic Std Medium Condensed
+NameArray:0,Win,1,ITC Avant Garde Std Cn
+NameArray:0,Win,16,ITC Avant Garde Gothic Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/my003538/Dropbox (Kao)/Oribe Art Dept./DIGITAL MARKETING/FOR JONAH/Gold Lust Microsite/V2/Gold Lust_MicrositeV2 Collected Folder/Document fonts/MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:529285156
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
