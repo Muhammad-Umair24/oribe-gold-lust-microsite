@@ -486,11 +486,16 @@
         $(this).toggle();
           document.getElementById("bannerVideo").paused ? document.getElementById("bannerVideo").play() : document.getElementById("bannerVideo").pause();
       })
-      $( document ).ready(function(){
+      const myTimeout = setTimeout(function(){
         var height = $("#bannerVideo").height();
         $("#mainContent .video-bg").css("height",height);
         console.log(height)
-      })
+      }, 1000);
+      // $( document ).ready(function(){
+      //   var height = $("#bannerVideo").height();
+      //   $("#mainContent .video-bg").css("height",height);
+      //   console.log(height)
+      // })
       
     </script>
   </body>
