@@ -380,11 +380,13 @@
   .sixth-box-container {
     flex-direction: column;
     align-items: center;
-    gap: 34px;
+    gap:unset;
+    /* gap: 34px; */
   }
 
   .sixth-section-box {
     max-width: 200px;
+    margin-bottom: 34px;
   }
 
   .sixth-section-heading {
@@ -402,7 +404,7 @@
   .sixth-section-subline .sixth-section-subline-text {
     width: 230px;
     padding-bottom: 0;
-    padding-top: 34px;
+    padding-top: unset;
   }
 }
 
@@ -493,17 +495,22 @@
     padding-bottom: 30px;
   }
 
-  .eighth-section .sixth-box-container {
-    gap: 0;
-  }
-
   .eighth-section .sixth-section-box {
     max-width: 160px;
   }
 
+  .eighth-section .eighth-section-box-one,.eighth-section  .eighth-section-box-three{
+    margin-right: 20px;
+  }
+
+  .eighth-section-box-four .sixth-section-subheading{
+    min-height: 57px;
+  }
+
   .eighth-section .sixth-box-container {
     flex-direction: revert;
-    gap: 26px;
+    gap: unset;
+    margin-bottom: 0;
   }
 }
 
@@ -548,7 +555,7 @@
 }
 
 .tenth-section .sixth-section-subline .sixth-section-subline-text {
-  padding-top: 47px;
+  padding-top: unset;
   width: auto;
 }
 
