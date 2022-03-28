@@ -481,6 +481,8 @@ button:hover{
   margin: 38px 0 39px 0;
   background-color: #000;
 }
+
+
 @media screen and (max-width: 770px) {
   .seventh-section .half-width {
     width: 100%;
@@ -572,6 +574,15 @@ button:hover{
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .seventh-second-container{
+    width: 300px;
+  }
+  .ninth-section .seventh-second-container {
+    width: 300px;
+  }
+}
+
 .tenth-section .sixth-section-box {
   max-width: 320px;
 }
@@ -591,14 +602,16 @@ button:hover{
 }
 
 .tenth-section .sixth-section-subline .sixth-section-subline-text {
-  padding-top: unset;
+  padding-top: 47px;
   width: auto;
 }
 
 .tenth-second-subheading {
   text-align: right;
 }
-
+@media screen and (max-width: 1024px) {
+  padding-left: 20px;  
+}
 @media screen and (max-width:770px) {
   .tenth-section {
     padding-top: 38px;
