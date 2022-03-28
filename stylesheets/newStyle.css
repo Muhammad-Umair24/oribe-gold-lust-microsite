@@ -610,7 +610,7 @@ button:hover{
   text-align: right;
 }
 @media screen and (max-width: 1024px) {
-  padding-left: 20px;  
+  .tenth-section {padding-left: 20px;  }
 }
 @media screen and (max-width:770px) {
   .tenth-section {
