@@ -39,6 +39,10 @@
   src: url(../fonts/AGaramondPro-Regular.otf) format('opentype');
 }
 
+.o-header .oribe:before {
+  content: url(../assets/logo.svg)!important;
+}
+
 #mainContent {
   background: #ffffff;
 }
@@ -131,12 +135,15 @@
   .br-mobile-only {
     display: inline;
   }
-  #mainContent .video-bg{
-    height:210px!important;
+
+  #mainContent .video-bg {
+    height: 210px !important;
   }
+
   .video-bg .cover .oribe-text-video img {
     height: 56px;
   }
+
   .video-bg .cover .video-play-button {
     top: 35%;
   }
