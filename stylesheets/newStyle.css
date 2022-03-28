@@ -17,6 +17,13 @@
 }
 
 @font-face {
+  font-family: 'ITCCondensedGothic-MD';
+  src: url(../fonts/ITCAvantGardeStd-Md.otf) format('opentype');
+  font-weight: 400;
+}
+
+
+@font-face {
   font-family: 'ITCCondensedGothic-std';
   src: url(../fonts/itcavantgardestd-bk.otf) format('opentype');
   font-weight: 400;
@@ -115,7 +122,7 @@
   max-width: 580px;
   font-size: 20px;
   margin-bottom: 0 !important;
-  font-family: 'ITCCondensedGothic';
+  font-family: 'ITCCondensedGothic-MD';
 }
 
 .second-section .divider-custom {
@@ -125,6 +132,9 @@
   background-image: radial-gradient(circle at 0 0, rgba(196, 196, 196, 0), #000 52%, rgba(196, 196, 196, 0) 97%);
 }
 
+.second-section .second-section-subheading-container{
+  padding-top: 26px;
+}
 
 
 .br-mobile-only {
@@ -237,6 +247,11 @@
   letter-spacing: normal;
   text-align: center;
   color: #000;
+  margin-bottom: 0;
+}
+
+.third-section .third-section-sub-subheading-container{
+  padding-top: 26px;
 }
 
 .fourth-section {
