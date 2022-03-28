@@ -525,7 +525,7 @@ button:hover {
 
   .seventh-section .seventh-section-cta,
   .seventh-second-container {
-    width: 100%;
+    width: 100%!important;
   }
 }
 
@@ -587,7 +587,7 @@ button:hover {
   }
 
   .ninth-section .seventh-second-container {
-    width: 100%;
+    width: 100%!important;
   }
 }
 
