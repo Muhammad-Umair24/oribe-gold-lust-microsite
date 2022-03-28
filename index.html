@@ -58,7 +58,7 @@
 	
         <div class = 'cover'> 
           <video loop muted autoPlay playsinline="true"  disablePictureInPicture="true"  id="bannerVideo" class = 'mainVideo' width = '600'>
-                          <source src="./assets/Oribe video.mp4" type="video/mp4" />
+                          <source src="./assets/oribe-video_SupzBzlQ.mp4" type="video/mp4" />
                           <img src="/assets/Rectangle 2.jpg" alt="">
           </video> 
           <script type="text/javascript">
@@ -491,28 +491,19 @@
         $(this).toggle();
           document.getElementById("bannerVideo").paused ? document.getElementById("bannerVideo").play() : document.getElementById("bannerVideo").pause();
       })
-      const myTimeout = setTimeout(function(){
-        var height = $("#bannerVideo").height();
-        $("#mainContent .video-bg").css("height",height);
-        console.log(height)
-      }, 2000);
-      // $( document ).ready(function(){
+      // const myTimeout = setTimeout(function(){
       //   var height = $("#bannerVideo").height();
       //   $("#mainContent .video-bg").css("height",height);
       //   console.log(height)
-      // })
-      $('.fifth-section .half-width').hover(function(){
-        $(this).children('.fifth-section-cta').toggle();
-        $(this).children('.overlay').toggle();
-      })
-      $('.fifth-section .half-width').bind('touchstart mousedown', function(e){
-        $(this).children('.fifth-section-cta').css("display","block")
-        $(this).children('.overlay').css("display","block")
-      });
-      $('.fifth-section .half-width').bind('touchend mouseup', function(e){
-        $(this).children('.fifth-section-cta').css("display","none")
-        $(this).children('.overlay').css("display","none")
-      })
+      // }, 2000);
+
+
+      if (window.matchMedia('(min-width: 600px)').matches) {
+        $('.fifth-section .half-width').hover(function(){
+          $(this).children('.fifth-section-cta').toggle();
+          $(this).children('.overlay').toggle();
+        });
+      }
     </script>
   </body>
 </html>
