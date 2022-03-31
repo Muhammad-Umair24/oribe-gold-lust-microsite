@@ -129,16 +129,25 @@
 
 .second-section .second-section-sub-subheading {
   max-width: 580px;
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 0 !important;
-  font-family: 'ITCCondensedGothic-MD';
+  font-family: 'ITCCondensedGothic-std';
+}
+.second-section .second-section-sub-subheading span{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media screen and (max-width:770px) {
+  .second-section .second-section-sub-subheading span{  
+    font-size: 18px;
+  }
 }
 
 .second-section .divider-custom {
-  width: 71px;
-  height: 2px;
+  width: 77px;
   margin-bottom: 18px;
-  background-image: radial-gradient(circle at 0 0, rgba(196, 196, 196, 0), #000 52%, rgba(196, 196, 196, 0) 97%);
+  border-bottom: 2px solid black;
 }
 
 .second-section .second-section-subheading-container {
@@ -148,6 +157,10 @@
 
 .br-mobile-only {
   display: none;
+}
+
+.second-section .second-section-heading{
+  max-width: 380px;
 }
 
 @media screen and (max-width:600px) {
@@ -210,7 +223,7 @@
   .second-section .second-section-sub-subheading {
     max-width: 304px;
     line-height: 26px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     font-stretch: normal;
     font-style: normal;
@@ -332,7 +345,7 @@ button:hover {
 }
 
 .fourth-section .fourth-section-heading {
-  font-size: 36px;
+  font-size: 48px;
 }
 
 @media screen and (max-width:770px) {
@@ -415,9 +428,9 @@ button:hover {
 }
 
 .sixth-section .divider-custom {
-  width: 71px;
-  height: 2px;
-  background-image: radial-gradient(circle at 0 0, rgba(196, 196, 196, 0), #000 52%, rgba(196, 196, 196, 0) 97%);
+  width: 77px;
+  margin-bottom: 18px;
+  border-bottom: 2px solid black;
 }
 
 @media screen and (max-width: 770px) {
@@ -491,7 +504,7 @@ button:hover {
 
 .seventh-section .divider-custom {
   width: 77px;
-  height: 1px;
+  height: 2px;
   margin: 38px 0 39px 0;
   background-color: #000;
 }
@@ -606,7 +619,7 @@ button:hover {
 }
 
 .tenth-section .tenth-first-subheading {
-  text-align: left;
+  text-align: center;
 }
 
 .tenth-section .sixth-section-heading {
@@ -625,7 +638,7 @@ button:hover {
 }
 
 .tenth-second-subheading {
-  text-align: right;
+  text-align: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -988,3 +1001,50 @@ button:hover {
     width: 47%;
   }
 }
+
+
+.sticky-cta-button a{
+  font-family: 'ITCCondensedGothic-MD';
+  font-size: 24px;
+}
+
+
+
+.small-img-container {
+  position: relative;
+  cursor: pointer;
+}
+.img-container{
+  cursor: pointer;
+  position: relative;
+}
+
+.img-container img, .small-img-container img{
+  transition: all 0.3s ease-in-out;
+}
+
+
+.cta-hover-position {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  text-align: center;
+}
+
+
+.cta-hover {
+  font-family: 'ITCCondensedGothic-std-demi';
+  border: none;
+  padding: 15px 32px 15px;
+  text-transform: uppercase;
+  padding: 19.2px 32px 11.5px;
+  font-size: 16px;
+  color: #000;
+}
+
+.second-section-subheading-wrap{
+  max-width: 408px;
+}
+
