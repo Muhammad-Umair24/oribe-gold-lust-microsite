@@ -159,9 +159,6 @@
   display: none;
 }
 
-.second-section .second-section-heading{
-  max-width: 380px;
-}
 
 @media screen and (max-width:600px) {
   #mainContent .video-bg {
